@@ -1,4 +1,6 @@
 console.log('%c HI', 'color: firebrick');
+const li = document.getElementsByTagName('li');
+console.log(li);
 const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 document.addEventListener('DOMContentLoaded',()=>{
@@ -33,8 +35,7 @@ function addImgElems(obj){
     img.setAttribute('src',elem);
   }
 }
-const li = document.getElementsByTagName('li');
-console.log(li);
+
 function changeColor(){
 
 }
