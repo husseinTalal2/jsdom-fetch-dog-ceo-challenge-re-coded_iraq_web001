@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded',()=>{
   fetch(imgUrl)
   .then(response => {
     response.json();
-    console.log(response.url);
-    addImgElems(response.url)
+    console.log(response);
+    addImgElems(response)
 })
 })
 function addImgElems(obj){
