@@ -14,13 +14,16 @@ document.addEventListener('DOMContentLoaded',()=>{
   .then(resp => resp.json())
   .then(resp => addBreeds(resp));
 })
-
+li.addEventListener('click',changeColor(this.))
 function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
   const breeds = obj.message;
+  let i = 0;
   for(elem in breeds){
     const li = document.createElement('li');
     li.innerText = `${elem}`;
+    li.setAttribute('id',i);
+    i++;
     breedsContainer.appendChild(li);
   }
 }
