@@ -3,8 +3,8 @@ console.log('%c HI', 'color: firebrick')
 document.addEventListener('DOMContentLoaded',()=>{
   fetch(imgUrl)
   .then(resp => resp.json())
-  .then(resp => console.log(resp));
+  .then(resp => addImgElems(resp));
 })
 function addImgElems(obj){
-
+  console.log(obj.message);
 }
