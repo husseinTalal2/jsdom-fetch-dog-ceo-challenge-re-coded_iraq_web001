@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   .then(resp => resp.json())
   .then(resp => addBreeds(resp));
 })
-li.addEventListener('click',changeColor(e.target.id))
+
 function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
   const breeds = obj.message;
@@ -38,7 +38,7 @@ function addImgElems(obj){
     img.setAttribute('src',elem);
   }
 }
-
-function changeColor(){
-
+li.addEventListener('click',changeColor(e))
+function changeColor(event){
+  console.log(event.target.id);
 }
