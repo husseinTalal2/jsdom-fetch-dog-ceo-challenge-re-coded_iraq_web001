@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded',()=>{
 function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
   const breeds = obj.message;
-  for(elem in breedsAraay){
-
+  for(elem in breeds){
+    const li = document.createElement('li');
+    li.innerText = `${elem}`;
+    breedsContainer.appendChild(li);
   }
-
-
 }
 
 function addImgElems(obj){
