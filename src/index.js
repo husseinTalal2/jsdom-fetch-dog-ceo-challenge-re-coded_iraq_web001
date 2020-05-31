@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 function addBreeds(){
-  
+
 }
 
 function addImgElems(obj){
