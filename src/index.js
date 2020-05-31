@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   .then(resp => resp.json())
   .then(resp => addBreeds(resp));
 })
-li.addEventListener('click',changeColor(target.id))
+li.addEventListener('click',changeColor(e.target.id))
 function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
   const breeds = obj.message;
