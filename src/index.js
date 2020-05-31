@@ -14,7 +14,7 @@ function addImgElems(obj){
     console.log(elem)
     const img = document.createElement('img');
     imgsContainer.appendChild(img);
-    img.setAttribute('src','elem');
+    img.setAttribute('src',elem);
   }
   //console.log(imgsArray);
 }
