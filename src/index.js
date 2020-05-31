@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 function addImgElems(obj){
-  
+
 }
