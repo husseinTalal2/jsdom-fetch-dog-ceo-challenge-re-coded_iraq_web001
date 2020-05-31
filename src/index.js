@@ -33,3 +33,8 @@ function addImgElems(obj){
     img.setAttribute('src',elem);
   }
 }
+const li = document.getElementsByTagName('li');
+console.log(li);
+function changeColor(){
+  
+}
