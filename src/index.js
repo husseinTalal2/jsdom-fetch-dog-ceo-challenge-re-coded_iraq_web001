@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 function addBreeds(){
   const breedsContainer = document.getElementById('dog-breeds');
-  
+
 }
 
 function addImgElems(obj){
