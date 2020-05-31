@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.log(response.url);
     addImgElems(response.url)
 })
-
+}
 function addImgElems(obj){
 
 }
