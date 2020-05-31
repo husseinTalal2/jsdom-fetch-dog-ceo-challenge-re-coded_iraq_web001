@@ -36,5 +36,5 @@ function addImgElems(obj){
 const li = document.getElementsByTagName('li');
 console.log(li);
 function changeColor(){
-  
+
 }
