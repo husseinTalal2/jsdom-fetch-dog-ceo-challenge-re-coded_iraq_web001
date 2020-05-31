@@ -38,7 +38,7 @@ function addImgElems(obj){
     img.setAttribute('src',elem);
   }
 }
-li.addEventListener('click',changeColor)
+li.addEventListener('click',changeColor);
 function changeColor(event){
   console.log(event.target.id);
 }
