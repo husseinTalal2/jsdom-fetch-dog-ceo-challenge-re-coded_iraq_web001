@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 function addImgElems(obj){
   imgsArray = obj.message;
-  for(elem in imgsArray){
+  for(elem of imgsArray){
     console.log(elem)
   }
   //console.log(imgsArray);
