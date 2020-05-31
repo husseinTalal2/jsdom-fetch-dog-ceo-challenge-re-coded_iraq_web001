@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded',()=>{
     response.json();
     console.log(response)
   })
-  .then(data => console.log(data));
+  .then(response => console.log(response));
 })
