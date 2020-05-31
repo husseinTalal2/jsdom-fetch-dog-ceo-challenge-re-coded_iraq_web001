@@ -4,7 +4,12 @@ document.addEventListener('DOMContentLoaded',()=>{
   fetch(imgUrl)
   .then(response => {
     response.json();
-    console.log(response.url);
+    fetch(response.url)
+    .then(response => {
+      response.json();
+      console.log("second response");
+      console.log(response);
+    })
   })
 })
 
