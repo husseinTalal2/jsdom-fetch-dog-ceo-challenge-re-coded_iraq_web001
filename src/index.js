@@ -17,7 +17,9 @@ function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
   const breedsAraay = obj.message;
   console.log(breedsAraay)
-  if()
+  if(){
+    
+  }
 }
 
 function addImgElems(obj){
