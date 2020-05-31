@@ -40,5 +40,5 @@ function addImgElems(obj){
 }
 li.addEventListener('click',changeColor);
 function changeColor(event){
-  
+
 }
