@@ -6,5 +6,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   .then(resp => addImgElems(resp));
 })
 function addImgElems(obj){
-  console.log(obj.message);
+  imgsArray = obj.message;
+  console.log(imgsArray);
 }
