@@ -10,12 +10,14 @@ document.addEventListener('DOMContentLoaded',()=>{
 document.addEventListener('DOMContentLoaded',()=>{
   fetch(breedUrl)
   .then(resp => resp.json())
-  .then(resp => console.log(resp));
+  .then(resp => addBreeds(resp));
 })
 
-function addBreeds(){
+function addBreeds(obj){
   const breedsContainer = document.getElementById('dog-breeds');
-
+  const breedsAraay = obj.message;
+  console.log(breedsAraay)
+  if()
 }
 
 function addImgElems(obj){
